@@ -9,18 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   public links: any[] = [
     {
-      name: 'GitHub',
-      url: 'https://github.com/tarlepp/angular2-firebase-material-demo',
-      icon: 'web',
-    },
-    {
-      name: 'Issues',
-      url: 'https://github.com/tarlepp/angular2-firebase-material-demo/issues',
-      icon: 'bug_report',
-    },
-    {
-      name: 'Tarmo Leppänen',
-      url: 'https://github.com/tarlepp',
+      name: 'Ron Apelbaum',
+      url: 'https://ronapelbaum.github.io/',
       icon: 'person',
     },
   ];
