@@ -51,7 +51,7 @@ export class LoginComponent extends Animations implements OnInit {
         method: AuthMethods.Popup,
       })
       .then(() => {
-        this.router.navigate(['/todos']);
+        this.router.navigate(['/']);
       })
       .catch(error => {
         alert(error);
