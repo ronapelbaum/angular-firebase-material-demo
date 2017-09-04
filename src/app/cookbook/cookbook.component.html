@@ -6,6 +6,7 @@
       <div fxLayout="row" fxLayoutAlign="space-between center" fxFill>
                 <div fxFlex fxLayout="column" fxLayoutAlign="space-between stretch">
           <h3>{{recipe.title}}</h3>
+          <img *ngIf="recipe.image" [src]="recipe.image"/>
           <section *ngIf="recipe.ingredients">
             <span>Ingredients:</span>
             <ul>
