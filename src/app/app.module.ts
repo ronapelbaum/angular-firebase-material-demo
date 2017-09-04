@@ -7,7 +7,6 @@ import { LayoutModule } from './layout/layout.module';
 import { AboutModule } from './about/about.module';
 import { LoginModule } from './login/login.module';
 import { TodosModule } from './todos/todos.module';
-import { ChatModule } from './chat/chat.module';
 import { CookbookModule } from './cookbook/cookbook.module';
 
 
@@ -22,7 +21,6 @@ import { CookbookModule } from './cookbook/cookbook.module';
     AboutModule,
     LoginModule,
     TodosModule,
-    ChatModule,
     CookbookModule,
   ],
   bootstrap: [
