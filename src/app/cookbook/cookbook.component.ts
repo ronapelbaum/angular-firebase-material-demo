@@ -28,9 +28,7 @@ export class CookbookComponent extends Animations implements OnInit  {
   }
 
   public ngOnInit() {
-    console.log('CookbookComponent - ngOnInit');
     this.activatedRoute.data.subscribe(data => {
-      console.log('CookbookComponent - subscribe',data);
       this.recipes = data['cookbook'];
     });
   }
