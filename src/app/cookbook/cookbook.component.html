@@ -1,0 +1,13 @@
+<div class="normal-content" fxLayout="column" fxFill>
+  <h2>Recipes</h2>
+
+  <md-list>
+    <md-list-item *ngFor="let item of recipes | async" >
+      <div fxLayout="row" fxLayoutAlign="space-between center" fxFill>
+                <div fxFlex fxLayout="column" fxLayoutAlign="space-between stretch">
+          <h3>{{item.title}}</h3>
+        </div>        
+      </div>
+    </md-list-item>
+  </md-list>
+</div>

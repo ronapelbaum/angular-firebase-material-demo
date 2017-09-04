@@ -1,0 +1,40 @@
+h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.mat-checkbox {
+  margin-right: 8px;
+}
+
+.done {
+  h3 {
+    text-decoration: line-through;
+  }
+}
+
+.content {
+  h3, p {
+    margin: 0;
+  }
+}
+
+.mat-list-item {
+  height: auto;
+  padding: 8px 0;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .06);
+  }
+}
+

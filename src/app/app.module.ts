@@ -8,6 +8,8 @@ import { AboutModule } from './about/about.module';
 import { LoginModule } from './login/login.module';
 import { TodosModule } from './todos/todos.module';
 import { ChatModule } from './chat/chat.module';
+import { CookbookModule } from './cookbook/cookbook.module';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { ChatModule } from './chat/chat.module';
     LoginModule,
     TodosModule,
     ChatModule,
+    CookbookModule,
   ],
   bootstrap: [
     AppComponent,
